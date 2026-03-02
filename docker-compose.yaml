@@ -7,8 +7,6 @@ services:
   mongodb:
     image: kumari13/mongodb:v1
     container_name: mongodb
-    volumes:
-    - mongodb:/data/db
   catalogue:
     image: kumari13/catalogue:v1
     container_name: catalogue
