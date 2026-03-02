@@ -34,8 +34,6 @@ services:
   mysql:
     image: kumari13/mysql:v1
     container_name: mysql
-    volumes:
-    - mysql:/var/lib/mysql
   shipping:
     image: kumari13/shipping:v1
     container_name: shipping
